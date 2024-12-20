@@ -33,15 +33,6 @@ div.portfolio > img {
   border-bottom: 0px;
 }
 
-profile > img {
-  width: 50px;
-  height: auto;
-}
-
-profile > name {
-  display: flex;
-}
-
 .promo > h3 {
   text-align: center;
   margin-bottom: 0px;
@@ -58,6 +49,16 @@ profile > name {
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
+}
+/*DO NOT RENAME/DELETE ABOVE! YOU CAN ONLY EDIT*/
+
+profile > img {
+  width: 50px;
+  height: auto;
+}
+
+profile > name {
+  display: flex;
 }
 
 .pricing > p {
