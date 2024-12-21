@@ -6,6 +6,16 @@
     <title>Mb Photography</title>
     <!--DON'T FORGET TO RENAME CSS FILE REFERENCE PROPERLY(delete "_refactor")-->
     <link rel="stylesheet" href="static/styles/style_refactor.css" />
+
+    <!--Montserrat font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Prata font-->
   </head>
   <body>
     <header>
@@ -20,7 +30,16 @@
       <div class="promo_box_container">
         <div class="promo_top">
           <h3>Максим Браун</h3>
-          <p>Фотограф в Москве</p>
+          <p>фотограф</p>
+          <div class="little_B_thingy">
+            <span>в</span>
+            <p>москве</p>
+          </div>
+          <div class="promo_text">
+            <p>
+              Нестандартные фотографии, которые помогут вам выделиться из толпы
+            </p>
+          </div>
           <div class="promo_button_container">
             <button><p>Записаться</p></button>
           </div>
@@ -215,6 +234,9 @@
       <!--And I still have fucking troubles with this to this day. The hell is it so hard? It looks
       easy and I even understand what I should do but it won't work!!!!-->
       <!---For more understanding on why am I angry - check CSS-->
+      <div class="pricing_pre_img">
+        <img src="static/images/zerkalo_photo.png" alt="" />
+      </div>
       <div class="pricing_box_container">
         <div class="pricing_top">
           <h1>Стоимость</h1>
@@ -228,7 +250,7 @@
         <div class="pricing_block">
           <div class="pricing_text">
             <p>Съёмка портретов</p>
-            <strong>50 000 Р</strong>
+            <strong>50 000 ₽</strong>
           </div>
           <div class="pricing_img">
             <img src="static/images/photik_icon.png" alt="" />
@@ -236,29 +258,43 @@
         </div>
 
         <div class="pricing_block">
-          <span>Аренда студии</span>
-          <p>1 000 Р/час</p>
-          <img src="static/images/photik_icon.png" alt="" />
+          <div class="pricing_text">
+            <p>Аренда студии</p>
+            <strong>1000 ₽/час</strong>
+          </div>
+          <div class="pricing_img">
+            <img src="static/images/studio_icon.png" alt="" />
+          </div>
         </div>
 
         <div class="pricing_block">
-          <span>Макияж, причёска</span>
-          <p>5 000 Р</p>
-          <img src="static/images/photik_icon.png" alt="" />
+          <div class="pricing_text">
+            <p>Макияж, причёска</p>
+            <strong>5 000 ₽</strong>
+          </div>
+          <div class="pricing_img">
+            <img src="static/images/cosmetics_icon.png" alt="" />
+          </div>
         </div>
 
         <div class="pricing_block">
-          <span>Аренда одежды</span>
-          <p>10 000 Р</p>
-          <img src="static/images/photik_icon.png" alt="" />
+          <div class="pricing_text">
+            <p>Аренда одежды</p>
+            <strong>10 000 ₽</strong>
+          </div>
+          <div class="pricing_img">
+            <img src="static/images/dress_icon.png" alt="" />
+          </div>
         </div>
       </div>
     </main>
 
     <footer>
-      <p>© Фотограф Максим Браун 2022</p>
-      <p><a href="#">Политика конфиденциальности</a></p>
-      <p>Разработка и маркетинг WebCanape</p>
+      <div class="footer_box_container">
+        <p>© Фотограф Максим Браун 2022</p>
+        <p><a href="#">Политика конфиденциальности</a></p>
+        <p>Разработка и маркетинг WebCanape</p>
+      </div>
     </footer>
   </body>
 </html>
