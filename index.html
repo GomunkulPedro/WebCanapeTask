@@ -1,206 +1,301 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mb Photography</title>
+    <!--DON'T FORGET TO RENAME CSS FILE REFERENCE PROPERLY(delete "_refactor")-->
+    <!--UPD: done! :D-->
     <link rel="stylesheet" href="static/styles/style.css" />
+
+    <!--Montserrat font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Prata font-->
   </head>
-  <body class="body">
-    <header class="header">
+  <body>
+    <header>
+      <!--Header with menu button and logo-->
       <button class="header_button">
-        <img src="static/images/menu_icon.png" alt="" />
+        <img src="static/images/menu_icon.png" />
       </button>
-      <img class="header_logo" src="static/images/mb_logo_icon.png" alt="#" />
+      <img src="static/images/mb_logo_icon.png" />
     </header>
     <main>
-      <div class="promo">
-        <h3>МАКСИМ БРАУН</h3>
-        <p class="big_txt">Фотограф в Москве</p>
-        <p class="main_text">
-          Нестандартные фотографии, которые помогут вам выделиться из толпы
-        </p>
-        <div class="promo_button">
-          <button>Записаться</button>
+      <!--Huge opening text with the most neccessary info-->
+      <div class="promo_box_container">
+        <div class="promo_top">
+          <h3>Максим Браун</h3>
+          <p>фотограф</p>
+          <div class="little_B_thingy">
+            <span>в</span>
+            <p>москве</p>
+          </div>
+          <div class="promo_text">
+            <p>
+              Нестандартные фотографии, которые помогут вам выделиться из толпы
+            </p>
+          </div>
+          <div class="promo_button_container">
+            <button><p>Записаться</p></button>
+          </div>
         </div>
-        <img
-          style="width: 375px; height: auto"
-          src="static/images/stock_dude_with_photik.jpg"
-          alt=""
-        />
-        <p class="main_text">
-          Услуги профессионального фотографа, привлечение к съемкам лучших
-          специалистов. Решение творческих и организационных задач любой
-          сложности. Создание рекламных фотографий и выразительных портретов.
-          Профессиональная работа в студии и на выезде.
-        </p>
+        <div class="promo_main">
+          <img src="static/images/stock_dude_with_photik.jpg" />
+          <p>
+            Услуги профессионального фотографа, привлечение к съемкам лучших
+            специалистов. Решение творческих и организационных задач любой
+            сложности. Создание рекламных фотографий и выразительных портретов.
+            Профессиональная работа в студии и на выезде.
+          </p>
+        </div>
       </div>
-      <div class="hvastovstvo">
-        <img
-          style="width: 375px; height: auto"
-          src="static/images/woman_and_stock_dude_with_photik.png"
-          alt=""
-        />
-
-        <div class="statistika">
-          <div class="stats_block">
+      <!--Block with braging around with his achievments in photography-->
+      <div class="braging_box_container">
+        <div class="braging_img">
+          <img src="static/images/woman_and_stock_dude_with_photik.png" />
+        </div>
+        <div class="braging_stats_container">
+          <div class="braging_stats_block">
             <h2>9</h2>
             <p>Лет опыта фотографии</p>
           </div>
-          <div class="stats_block">
+
+          <div class="braging_stats_block">
             <h2>100+</h2>
             <p>Портретных съёмок</p>
           </div>
-          <div class="stats_block">
+
+          <div class="braging_stats_block">
             <h2>12</h2>
             <p>Публикаций в журналах</p>
           </div>
-          <div class="stats_block">
+
+          <div class="braging_stats_block">
             <h2>25</h2>
             <p>Съёмок знаменитостей</p>
           </div>
-          <div class="stats_block">
+
+          <div class="braging_stats_block">
             <h2>14</h2>
             <p>Рекламных компаний</p>
           </div>
-          <div class="stats_block">
+
+          <div class="braging_stats_block">
             <h2>5</h2>
             <p>Побед в конкурсах</p>
           </div>
         </div>
       </div>
-
-      <div class="portfolio">
-        <h1>Портфолио</h1>
-        <img src="static/images/woman_with_a_rose.png" alt="" />
-        <img src="static/images/woman_b_n_w.png" alt="" />
-        <img src="static/images/woman_v_pole.png" alt="" />
-        <img src="static/images/svadba_girlanda.png" alt="" />
-        <img src="static/images/generic_woman_image.png" alt="" />
-        <img src="static/images/woman_behind_the_flowers.png" alt="" />
-        <img src="static/images/woman_looking_straight.png" alt="" />
-        <img src="static/images/cute_couple.png" alt="" />
+      <!--This block is just the portfolio with tons of pictures-->
+      <div class="portfolio_box_container">
+        <div class="portfolio_title">
+          <p>Портфолио</p>
+        </div>
+        <div class="portfolio_img">
+          <img src="static/images/woman_with_a_rose.png" alt="" />
+          <img src="static/images/woman_b_n_w.png" alt="" />
+          <img src="static/images/woman_v_pole.png" alt="" />
+          <img src="static/images/svadba_girlanda.png" alt="" />
+          <img src="static/images/generic_woman_image.png" alt="" />
+          <img src="static/images/woman_behind_the_flowers.png" alt="" />
+          <img src="static/images/woman_looking_straight.png" alt="" />
+          <img src="static/images/cute_couple.png" alt="" />
+        </div>
       </div>
 
-      <div class="reviews">
-        <h2>Отзывы</h2>
-        <div class="user_review">
-          <profile>
-            <div class="profile img">
-              <img src="static/images/ekaterina_pfp.png" />
+      <!--Hardest part so far cuz I got no idea how to do it
+    but it is basically just block with the reviews-->
+      <div class="review_box_container">
+        <p>Отзывы</p>
+        <div class="review_block">
+          <div class="review_top">
+            <div class="review_pfp">
+              <img src="static/images/ekaterina_pfp.png" alt="" />
             </div>
-            <div class="user&age">
-              <name>Екатерина</name>
-              <age>18 лет</age>
+            <div class="review_name_n_age">
+              <strong class="review_name">Екатерина</strong>
+              <span class="review_age">18 лет</span>
             </div>
+          </div>
+          <div class="review_text">
             <p>
               Я очень очень довольна результатом! Безумна рада что испонилась
               еще одня моя маленькая мечта))) когда я первый раз увидела твои
               фото в facebook я даже не могла предположить что попаду в твой
               объектив
             </p>
-          </profile>
+          </div>
+        </div>
 
-          <profile>
-            <img src="static/images/kristina_pfp.png" alt="" />
-            <name>Кристина</name>
-            <age>25 лет</age>
+        <div class="review_block">
+          <div class="review_top">
+            <div class="review_pfp">
+              <img src="static/images/kristina_pfp.png" alt="" />
+            </div>
+            <div class="review_name_n_age">
+              <strong class="review_name">Кристина</strong>
+              <span class="review_age">25 лет</span>
+            </div>
+          </div>
+          <div class="review_text">
             <p>
               Не просто хороший фотограф, но и прекрасный человек, фотографии
               получились совершенно необычные , он видит людей немного с другой
               стороны. Спасибо, за проведенное время, было очень весело и
               приятно с тобой пообщаться
             </p>
-          </profile>
+          </div>
+        </div>
 
-          <profile>
-            <img src="static/images/regina_pfp.png" alt="" />
-            <name>Регина</name>
-            <age>23 года</age>
+        <div class="review_block">
+          <div class="review_top">
+            <div class="review_pfp">
+              <img src="static/images/regina_pfp.png" alt="" />
+            </div>
+            <div class="review_name_n_age">
+              <strong class="review_name">Регина</strong>
+              <span class="review_age">23 года</span>
+            </div>
+          </div>
+          <div class="review_text">
             <p>
               Встретившись, я была удивлена его подходом. Он пытается
               разговорить человека, понять его и раскрыть. Очень комфортный в
               общении, улавливает твое состояние и плавно, незаметно переходит к
               работе.
             </p>
-          </profile>
+          </div>
+        </div>
 
-          <profile>
-            <img src="static/images/maria_pfp.png" alt="" />
-            <name>Мария</name>
-            <age>26 лет</age>
+        <div class="review_block">
+          <div class="review_top">
+            <div class="review_pfp">
+              <img src="static/images/maria_pfp.png" alt="" />
+            </div>
+            <div class="review_name_n_age">
+              <strong class="review_name">Мария</strong>
+              <span class="review_age">26 лет</span>
+            </div>
+          </div>
+          <div class="review_text">
             <p>
               Большому кораблю, большое плавание! Максим, спасибо за
               незабываемую фотосессию, за твое видение и терпение. Спасибо, за
               то, что смог передать настроение и суть.
             </p>
-          </profile>
+          </div>
+        </div>
 
-          <profile>
-            <img src="static/images/leha.png" alt="" />
-            <name>Александр</name>
-            <age>30 лет</age>
+        <div class="review_block">
+          <div class="review_top">
+            <div class="review_pfp">
+              <img src="static/images/leha.png" alt="" />
+            </div>
+            <div class="review_name_n_age">
+              <strong class="review_name">Александр</strong>
+              <span class="review_age">30 лет</span>
+            </div>
+          </div>
+          <div class="review_text">
             <p>
               Фотосессия с Максимом была одной из лучших и незабываемых. Он
               умеет правильно воплотить характер человека в фотографии. Очень
               легко было работать!
             </p>
-          </profile>
+          </div>
+        </div>
 
-          <profile>
-            <img src="static/images/stefania_pfp.png" alt="" />
-            <name>Стефания</name>
-            <age>19 лет</age>
+        <div class="review_block">
+          <div class="review_top">
+            <div class="review_pfp">
+              <img src="static/images/stefania_pfp.png" alt="" />
+            </div>
+            <div class="review_name_n_age">
+              <strong class="review_name">Стефания</strong>
+              <span class="review_age">19 лет</span>
+            </div>
+          </div>
+          <div class="review_text">
             <p>
               Ваш почерк для меня - это магия и мистика. Вы - гений. Гений
               места, гений изгибов и смыслов. Я счастлива, что ваш талант
               прикоснулся ко мне.
             </p>
-          </profile>
+          </div>
         </div>
       </div>
 
-      <img
-        style="width: 375px; height: auto"
-        src="static/images/zerkalo_photo.png"
-        alt=""
-      />
-
-      <div class="pricing">
-        <h1>Стоимость</h1>
-        <p>
-          Стоимость может изменится из-за условий и пожеланий клиента. Для
-          уточнения деталей и финальной стоимости свяжитесь со мной, уточнив в
-          какие даты вам требуется съемка, а так же тип фотосъёмки.
-        </p>
-        <priceBlock>
-          <h4>Съёмка портретов</h4>
-          <p>50 000 Р</p>
-          <img src="static/images/photik_icon.png" alt="" />
-        </priceBlock>
-
-        <priceBlock>
-          <h4>Аренда студии</h4>
-          <p>1 000 Р/час</p>
-          <img src="static/images/studio_icon.png" alt="" />
-        </priceBlock>
-
-        <priceBlock>
-          <h4>Макияж, причёска</h4>
-          <p>5 000 Р</p>
-          <img src="static/images/cosmetics_icon.png" alt="" />
-        </priceBlock>
-
-        <priceBlock>
-          <h4>Аренда одежды</h4>
-          <p>10 000 Р</p>
-          <img src="static/images/dress_icon.png" alt="" />
-        </priceBlock>
+      <!--Pretty selfexplainatory< I guess-->
+      <!--And I still have fucking troubles with this to this day. The hell is it so hard? It looks
+      easy and I even understand what I should do but it won't work!!!!-->
+      <!---For more understanding on why am I angry - check CSS-->
+      <div class="pricing_pre_img">
+        <img src="static/images/zerkalo_photo.png" alt="" />
       </div>
-      <footer>
+      <div class="pricing_box_container">
+        <div class="pricing_top">
+          <h1>Стоимость</h1>
+          <p>
+            Стоимость может изменится из-за условий и пожеланий клиента. Для
+            уточнения деталей и финальной стоимости свяжитесь со мной, уточнив в
+            какие даты вам требуется съемка, а так же тип фотосъёмки.
+          </p>
+        </div>
+
+        <div class="pricing_block">
+          <div class="pricing_text">
+            <p>Съёмка портретов</p>
+            <strong>50 000 ₽</strong>
+          </div>
+          <div class="pricing_img">
+            <img src="static/images/photik_icon.png" alt="" />
+          </div>
+        </div>
+
+        <div class="pricing_block">
+          <div class="pricing_text">
+            <p>Аренда студии</p>
+            <strong>1000 ₽/час</strong>
+          </div>
+          <div class="pricing_img">
+            <img src="static/images/studio_icon.png" alt="" />
+          </div>
+        </div>
+
+        <div class="pricing_block">
+          <div class="pricing_text">
+            <p>Макияж, причёска</p>
+            <strong>5 000 ₽</strong>
+          </div>
+          <div class="pricing_img">
+            <img src="static/images/cosmetics_icon.png" alt="" />
+          </div>
+        </div>
+
+        <div class="pricing_block">
+          <div class="pricing_text">
+            <p>Аренда одежды</p>
+            <strong>10 000 ₽</strong>
+          </div>
+          <div class="pricing_img">
+            <img src="static/images/dress_icon.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer_box_container">
         <p>© Фотограф Максим Браун 2022</p>
         <p><a href="#">Политика конфиденциальности</a></p>
         <p>Разработка и маркетинг WebCanape</p>
-      </footer>
-    </main>
+      </div>
+    </footer>
   </body>
 </html>
